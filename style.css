@@ -1,0 +1,500 @@
+
+/* reset styles*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/** {
+    border: 1px solid red;
+}*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-width: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    background: #d8e1ff;
+    font-family: 'Gotham Pro';
+    background: #1c59d1 url(https://static.schools.by/images/header-bg/img-18.jpg) no-repeat center top;
+    background-size: cover;
+}
+
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button, 
+textarea, 
+select {
+    font: inherit;
+}
+
+/* reset styles*/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1920px;
+}
+
+.headerdiv {
+    height: 40px;
+    width: auto;
+    background: #2848ff;
+}
+
+.mw {
+    padding-left: 500px;
+    padding-top: 7px;
+}
+
+.mw a {
+    display: inline-block;
+    color: #ffffff; /*Цвет обычной ссылки */
+    line-height: 1;
+    text-decoration: none; /* Убираем подчеркивание */
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    padding: 5px 70px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+}
+.mw a:after {
+    background-color: #f66d52;  /*Цвет линии при наведении на нее курсора мыши */
+    display: block;
+    content: "";
+    height: 2px;  /*Высота линии*/ 
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.mw a:hover:after,
+.mw a:focus:after {
+    width: 100%;
+}
+
+.mw a:hover {
+color: rgb(255, 255, 255);
+}
+
+.secdiv{ 
+    background: #5872e9;
+    height: 80px;
+}
+
+@media (max-width: 1410px) {
+    .secdiv{
+        height: 55px;
+    }
+}
+
+.name-sch {
+    padding-left: 630px;
+    padding-top: 6px;
+    font-size: 40px;
+    color: #fff;
+}
+
+@media (max-width: 1410px) {
+    .name-sch{
+        padding-left: -50px;
+        font-size: 25px;
+    }
+}
+
+.imagef {
+    margin-left: 330px;
+    margin-top: -82px;
+    width: 250px;
+    max-width: 100%;
+}
+
+@media (max-width: 1400px) {
+    .imagef{
+        width: 200px;
+        margin-top: -142px;
+        max-width: 70%;
+    }
+}
+
+.main_info {
+    margin-left: 250px;
+    margin-top: 10px;
+    border: 1.5px solid;
+    padding: 10px 10px 10px 12px;
+    border-color: #0057DA;
+    border-radius: 5px;
+    
+}
+
+@media (max-width: 1410px) {
+    .main_info{
+        margin-left: 170px;
+        font-size: 13px;
+        width: 600px;
+    }
+}
+
+@media (max-width: 990px) {
+    .main_info{
+        margin-left: -3rem;
+        font-size: 13px;
+        width: 600px;
+        display: inline-block;
+    }
+}
+
+dt{
+    margin-top: auto;
+}
+
+dd{
+    margin-left: 205px;
+}
+
+@media (max-width: 1410px) {
+    .dd {
+        font-size: 10px;
+    }
+}
+
+hr {
+    width: 735px;
+}
+
+@media (max-width: 1410px) {
+    hr{
+       width: 575px;
+    }
+}
+
+.maindiv {
+    width: 1250px;
+    margin-left: 150px;
+    height: 1040px;
+    background: #fff;
+    margin-top: 120px;
+    overflow: hidden;
+    border-radius: 3px 5px 0px 0px;
+    }
+
+@media (max-width: 1510px) {
+    .maindiv{
+        margin-left: 30px;
+        margin-right: 30px;
+        background: #fff;
+        overflow: hidden;
+        border-radius: 3px 5px 0px 0px;
+    }
+}
+
+@media (max-width: 1390px) {
+    .maindiv{
+        margin-left: 30px;
+        margin-right: 30px;
+        background: #fff;
+        overflow: hidden;
+        border-radius: 3px 5px 0px 0px;
+    }
+}
+
+
+
+.div_news {
+    width: 1030px;
+    height: 450px;
+    margin-left: 130px;
+    margin-top: 110px;
+    box-shadow: 2px 2px 2px 2px ;
+}
+
+@media (max-width: 1410px) {
+    .div_news{
+        margin-left: 150px;
+        width: 800px;
+    }
+}
+
+.t1 {
+    width: 200px;
+    height: 200px;
+    background: #353535;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+.seo {
+    padding-left: 1095px;
+    margin-top: -330px;
+}
+
+.nseo {
+    padding-left: 1100px;
+    font-size: 15px;
+}
+
+.dw1 {
+    width: 730px;
+    margin-top: 10px;
+    overflow: hidden;
+    border-bottom: 3px dashed #ddd;
+}
+
+.dw2 {
+    width: 730px;
+    margin-top: 10px;
+    overflow: hidden;
+    border-bottom: 3px dashed #ddd;
+}
+
+.dw3 {
+    width: 730px;
+    margin-top: 10px;
+    overflow: hidden;
+    border-bottom: 3px dashed #ddd;
+}
+
+@media (max-width: 1410px) {
+    .dw1, .dw2, .dw3 {      
+        width: 400px;
+    }
+}
+
+.word {
+    font-size: 45px;
+    padding-top: 70px;
+    color: #ccb1d6;
+    visibility: visible;
+    font-family: georgia,serif;
+}
+
+@media (max-width: 1410px) {
+    .word {      
+        font-size: 24px;
+        padding-left: 100px;
+    }
+}
+
+.dw4 {
+    width: 730px;
+    margin-top: 10px;
+    overflow: hidden;
+    border-bottom:3px dashed #ddd;
+}
+
+.mainsc_column {
+    margin-top: -380px;
+    width: 150px;
+    height: 127px;
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    color: #006db9;
+    background: #F3F5FF;
+    margin-left: 30px;
+    box-shadow: 0px 0px 3px 0px ;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+@media (max-width: 1410px) {
+    .mainsc_column{
+        height: 7rem;
+        width: 8rem;
+        margin-top: -20rem;
+        margin-left: 30px;
+    }
+}
+
+.mainsc_column a {
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none; /* Убираем подчеркивание */
+    cursor: pointer;
+    padding: 9px 12px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+}
+
+@media (max-width: 1410px) {
+    .mainsc_column a{
+        font-size: 12px;
+    }
+}
+
+.mainsc_column a:after {
+    background-color: #f66d52;  /*Цвет линии при наведении на нее курсора мыши */
+    display: block;
+    content: "";
+    height: 2px;  /*Высота линии*/ 
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.mainsc_column a:hover:after,
+.mainsc_column a:focus:after {
+    width: 100%;
+    
+}
+
+.mainsc_column .d1 , .d2 a, .d3 a {
+    color: #0057DA
+}
+
+.d1 {
+    text-decoration: none;
+    border-bottom: 1px solid #b0deff;
+    width: 150px;
+    margin-left: -65px;
+}
+
+.d2 a{
+    text-decoration: none;
+    border-bottom: 1px solid #b0deff;
+    width: 150px;
+    margin-left: -65px;
+}
+
+.d3 a{
+    text-decoration: none;
+    width: 10px;
+    padding-left: 18px;
+    margin-left: -70px;
+}
+
+@media (max-width: 1410px){
+    .d1, .d2 a, .d3 a{
+        width: 130px;
+    }
+}
+
+h1 {
+    padding-left: 250px;
+    padding-bottom: 580px;
+}
+
+.sch_news_item {
+    margin-left:150px;
+    margin-top: -560px;
+} 
+
+@media (max-width: 1410px) {
+    .sch_news_item {      
+        margin-left: 100px;
+    }
+}
+
+.sch_news_item2 {
+    margin-top: 20px;
+}
+
+.sch_news_item3 {
+    margin-top: 20px;
+}
+
+.dw {
+    margin-top: 140px;
+    width: 1260px;
+    margin-left: -30px;
+    overflow: hidden;
+    border-bottom: 3px dashed #ddd;
+}
+
+.footer {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.sep1 {
+    height: 18px;
+    width: 1px;
+    margin-left: 540px;
+    margin-top: -20px;
+    background-color: #000;
+}
+
+.sep2 {
+    height: 18px;
+    width: 1px;
+    margin-left: 600px;
+    margin-top: -18px;
+    background-color: #000;
+}
+
+.footer a {
+    color: #000;
+}
+
+.fm3 {
+    margin-left: 20px;
+}
+
+.fm2 {
+    margin-left: 20px;
+}
+
+.fm1 {
+    margin-left: 450px;
+}
+
+.fp {
+    padding-left: 1110px;
+    font-size: 13px;
+    margin-top: -22px;
+}
+
+.preloader {
+    position: fixed;
+    /* фоновый цвет */
+    background: #e0e0e0;
+    z-index: 1001;
+    inset: 0;
+  }
+  
+  .preloader__image {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+    animation: preloader-rotate 2s infinite linear;
+  }
+  
+  @keyframes preloader-rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+  }
+  
+  .loaded .preloader {
+    display: none;
+    } 
